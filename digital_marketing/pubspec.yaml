@@ -1,0 +1,76 @@
+name: digital_marketing
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Remote
+  dio: ^5.3.3
+  json_annotation: ^4.8.1
+
+  # State management
+  bloc: ^8.0.0
+  flutter_bloc: ^8.0.0
+  equatable: ^2.0.5
+
+  # Dependency Injection
+  get_it: ^7.6.4
+
+  # App Routing
+  go_router: ^12.0.1
+
+  # UI
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.9
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+  dotted_line: ^3.2.2
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.7
+
+  # Locale
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  qr_flutter: ^4.1.0
+  qr_code_scanner: ^1.0.1
+
+  # Freezed
+  freezed_annotation: ^2.4.1
+
+  #Either
+  either_dart: ^1.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  freezed: ^2.4.5
+
+flutter:
+  assets:
+    - assets/
+  uses-material-design: true
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/digital.png
+  android_12:
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/digital.png"
+  min_sdk_android: 20 # android min sdk min:16, default 21
